@@ -1,0 +1,26 @@
+[
+    {
+        "item_id"    : 1,
+        "max_mana"   : 1000,
+        "book_spell_use"   : 4,
+        "magic_+_dmg"  : 200   
+    },
+    {
+        "item_id"    : 2,
+        "max_mana"   : 400,
+        "book_spell_use"   : 2,
+        "magic_+_dmg"  : 50 
+    },
+    {
+        "item_id"    : 3,
+        "max_mana"   : 600,
+        "book_spell_use"   : 3,
+        "magic_+_dmg"  : 100 
+    },
+    {
+        "item_id"    : 4,
+        "max_mana"   : 5000,
+        "book_spell_use"   : 10,
+        "magic_+_dmg"  : 1000 
+    }
+]

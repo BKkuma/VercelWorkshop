@@ -1,0 +1,65 @@
+[
+    {
+        "item_id"      : 1,
+        "product_name" : "crimson_wand",
+        "product_price" : 2000,
+        "type"         : "wand"
+    },
+    {
+        "item_id"      : 2,
+        "product_name" : "gold_wand",
+        "product_price" : 200,
+         "type"         : "wand"
+    },
+    {
+        "item_id"      : 3,
+        "product_name" : "daimond_wand",
+        "product_price" : 400,
+         "type"         : "wand"
+    },
+    {
+        "item_id"      : 4,
+        "product_name" : "legendary_wand",
+        "product_price" : 10000,
+         "type"         : "wand"
+    },
+    {
+        "item_id"      : 1,
+        "product_name" : "book_of_fire",
+        "product_price" : 200,
+         "type"         : "book_spell"
+    },    
+    {
+        "item_id"      : 2,
+        "product_name" : "book_of_thunder",
+        "product_price" : 200,
+         "type"         : "book_spell"
+    },
+    {
+        "item_id"      : 3,
+        "product_name" : "book_of_water",
+        "product_price" : 200,
+         "type"         : "book_spell"
+    },
+    {
+        "item_id"      : 4,
+        "product_name" : "book_of_light",
+        "product_price" : 1000,
+         "type"         : "book_spell"
+    },
+    {
+        "item_id"      : 5,
+        "product_name" : "book_of_dark",
+        "product_price" : 1000,
+         "type"         : "book_spell"
+    }
+    ,
+    {
+        "item_id"      : 6,
+        "product_name" : "legendary_book",
+        "product_price" : 10000,
+         "type"         : "book_spell"
+    }
+    
+
+]   

@@ -1,0 +1,32 @@
+[
+    {
+        "item_id" : 1,
+        "element"  : "fire",
+        "mana_require_wand" : 200
+    },
+    {
+        "item_id" : 2,
+        "element"  : "thunder",
+        "mana_require_wand" : 200
+    },
+    {
+        "item_id" : 3,
+        "element"  : "water",
+        "mana_require_wand" : 200
+    },
+    {
+        "item_id" : 4,
+        "element"  : "light",
+        "mana_require_wand" : 500
+    },
+    {
+        "item_id" : 5,
+        "element"  : "dark",
+        "mana_require_wand" : 500
+    },
+    {
+        "item_id" : 6,
+        "element"  : "fire,thunder,water,light,dark",
+        "mana_require_wand" : 2000
+    }
+]
