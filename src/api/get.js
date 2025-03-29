@@ -6,23 +6,25 @@ const wand_stat = require('../data/wand_stat.json')
 function get( req )
 {
    let result = JSON.stringify( { message:"API not found" } )
+    
+    
+    if( req.url === '/api/weapon_stat'){
+        return  JSON.stringify( weapon_stat )
+    }
+    
 
-    // api/consume_stat
-    // api/weapon_stat
-    // api/shop
-    if( req.url = '/api/weapon_stat'){
-        result = JSON.stringify( weapon_stat )
+    if( req.url === '/api/book_spell_stat'){
+        return JSON.stringify( book_spell_stat )
     }
-    if( req.url = '/api/book_spell_stat'){
-        result = JSON.stringify( book_spell_stat )
-    }
-    if( req.url = '/api/wand_stat'){
-        result = JSON.stringify( wand_stat )
+    
+
+    if( req.url === '/api/wand_stat'){
+        return JSON.stringify( wand_stat )
     }
 
-    console.log( req )
-    if( req.url = '/api/shop'){
-        result = JSON.stringify( data_shop )   
+    
+    if( req.url === '/api/shop'){
+        return JSON.stringify( data_shop )   
     }   
     return  result
 }
