@@ -3,9 +3,6 @@ const weapon_stat = require('../data/weapon_stat.json')
 const book_spell_stat = require('../data/book_spell_stat.json')
 const wand_stat = require('../data/wand_stat.json')
 
-
-
-
 function get( req )
 {
    let result = JSON.stringify( { message:"API not found" } )
